@@ -2,8 +2,7 @@
 
 // src/services/NewsService.js
 import axios from 'axios';
-
-const API_KEY = '75deedc7f097972c2e62dba18cc1d8f7'; // Replace this with your actual key
+const API_KEY = import.meta.env.VITE_GNEWS_API_KEY;
 const BASE_URL = 'https://gnews.io/api/v4/search';
 
 export const fetchIndianStockNews = async () => {
