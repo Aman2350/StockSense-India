@@ -22,14 +22,13 @@ If you are developing a production application, we recommend using TypeScript wi
 
 - 🧾 **Portfolio Tracker**
   - Add Indian stocks (symbol, quantity, and buy price)
-  - Portfolio is stored in `localStorage` (auto-saves on reload)
+ 
 
 - 📰 **Live Market News**
   - Fetched using [GNews API](https://gnews.io/)
   - Includes General News and Portfolio-Filtered News
 
 - 🤖 **AI Market Analysis**
-  - Uses [Groq API](https://console.groq.com/) with LLaMA 3.1 model
   - Analyzes news and gives:
     - Overall sentiment (Positive/Negative/Neutral)
     - Summary
@@ -45,12 +44,5 @@ If you are developing a production application, we recommend using TypeScript wi
 
 ---
 
-## 🧑‍💻 Tech Stack
 
-- **Frontend:** React + Vite
-- **Styling:** TailwindCSS
-- **Icons:** Lucide React
-- **APIs:** GNews (news) + Groq (AI)
-
----
 
